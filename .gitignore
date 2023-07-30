@@ -1,5 +1,5 @@
 !.mvn/wrapper/maven-wrapper.jar
-
+!.target/WebScrapAPI-0.0.1-SNAPSHOT.jar
 ### IntelliJ IDEA ###
 .idea/modules.xml
 .idea/jarRepositories.xml
