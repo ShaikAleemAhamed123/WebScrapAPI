@@ -21,4 +21,8 @@ public class PokemonController {
     public List<PokemonProduct> getPokemonProducts(){
         return pokemonService.getProducts();
     }
+    @GetMapping("/pokemon/home")
+    public String pokemonHome(){
+        return "Welcome to Pokemon Home :)";
+    }
 }
